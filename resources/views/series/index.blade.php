@@ -21,7 +21,7 @@ Séries
         <form method="post" action="/series/{{ $serie->id }}" onsubmit="return confirm('Tem certeza que deseja remover {{ addslashes($serie->nome) }}?')">
                 @csrf
                 @method('DELETE')
-            <button class="btn btn-danger btn-sm"><i class="fa fa-trash-alt"></i></button>
+            <button class="btn btn-danger btn-sm"><i class="fa fa-trash"></i></button>
         </form>
     </li>
     @endforeach
