@@ -3,6 +3,7 @@
 namespace App\Services;
 
 use App\{Serie, Temporada, Episodio};
+use Illuminate\Support\Facades\DB;
 
 class RemovedorDeSerie {
 
